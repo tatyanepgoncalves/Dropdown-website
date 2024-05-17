@@ -34,7 +34,7 @@ function App() {
 
   return (
     <>
-      <header className="p-5 flex items-center justify-between">
+      <header className="p-5 flex items-center justify-between w-full">
         <div className="lg:flex lg:items-start lg:justify-start">
           <img src={logo} alt="" className="lg:mr-5" />
           <nav className="navbar">
@@ -117,8 +117,8 @@ function App() {
         </div>
       </header>
 
-      <section className="flex flex-col-reverse py-20 md:grid md:gap-10 md:grid-cols-2 md:place-items-center max-w-4xl lg:max-w-5xl md:mx-auto">
-        <article className="text-center md:text-left px-5 xl:px-0 mt-10 md:mt-0">
+      <section className="w-full flex flex-col-reverse py-10 md:grid md:gap-10 md:grid-cols-2 md:place-items-center  lg:max-w-5xl md:mx-auto">
+        <article className="text-center md:text-left px-5 xl:px-0 mt-5 md:mt-0">
           <h1 className="font-bold text-4xl lg:text-6xl xl:text-7xl mb-5">
             Make remote work
           </h1>
